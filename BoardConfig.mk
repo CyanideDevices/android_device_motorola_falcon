@@ -42,4 +42,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930598400 # 5930614784 - 16384
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/motorola/falcon/BoardConfigVendor.mk
+-include vendor/motorola/falcon/BoardConfigVendor.mk 
+
+TARGET_VRTOXIN_ROM=4.9
+TARGET_NDK_VRTOXIN_ROM=4.9
+TARGET_VRTOXIN_ARM=4.8
